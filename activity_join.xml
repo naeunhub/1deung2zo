@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="#FFFFFF">
 
     <TextView
@@ -18,28 +19,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/delete"
-        style="@style/defaultButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="68dp"
-        android:text="취소"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.69"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
-
-    <Button
-        android:id="@+id/join_button"
-        style="@style/defaultButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
-        android:text="가입"
-        app:layout_constraintBaseline_toBaselineOf="@+id/delete"
-        app:layout_constraintEnd_toStartOf="@+id/delete" />
 
     <EditText
         android:id="@+id/join_name"
@@ -52,31 +31,39 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-    <EditText
-        android:id="@+id/join_email"
-        android:layout_width="138dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:hint="아이디"
-        android:inputType="textEmailAddress"
-        app:layout_constraintHorizontal_bias="0.369"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone3" />
+        <EditText
+            android:id="@+id/join_email"
+            android:layout_width="138dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="아이디"
+            android:inputType="textEmailAddress"
+            app:layout_constraintHorizontal_bias="0.369"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPhone3" />
 
-    <Button
-        android:id="@+id/check_button"
-        style="@style/defaultButton"
-        android:layout_width="70dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginLeft="2dp"
-        android:layout_marginTop="16dp"
-        android:text="확인"
-        app:layout_constraintStart_toEndOf="@+id/join_email"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone3" />
+        <Button
+            android:id="@+id/check_button"
+            style="@style/defaultButton"
+            android:layout_width="70dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="16dp"
+            android:text="확인"
+            app:layout_constraintStart_toEndOf="@+id/join_email"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPhone3" />
+
+    </LinearLayout>
+
 
     <EditText
         android:id="@+id/join_password"
@@ -150,5 +137,35 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/join_button"
+            style="@style/defaultButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:text="가입"
+            app:layout_constraintBaseline_toBaselineOf="@+id/delete"
+            app:layout_constraintEnd_toStartOf="@+id/delete" />
+
+        <Button
+            android:id="@+id/delete"
+            style="@style/defaultButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="68dp"
+            android:text="취소"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.69"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
