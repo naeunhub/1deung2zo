@@ -33,6 +33,7 @@ public class User {
     //비밀번호
     private String password;
 
+
     //Getter, Setter
     public String getName() {
         return name;
