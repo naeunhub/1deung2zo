@@ -1,6 +1,7 @@
 package com.example.platform;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.room.Room;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,15 +13,21 @@ import android.widget.Button;
  */
 public class FirstPage extends AppCompatActivity {
 
+    private Button login_btn;
+    private Button signup_btn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_page);
 
-        Button imageButton = (Button) findViewById(R.id.login_btn);
-        imageButton.setOnClickListener(new View.OnClickListener() {
-
+        /*
+         * 로그인 버튼
+         * 클릭 시 로그인 페이지로 이동
+         */
+        login_btn = findViewById(R.id.login_btn);
+        login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), LogIn.class);
@@ -28,14 +35,21 @@ public class FirstPage extends AppCompatActivity {
             }
         });
 
-
-        Button imageButton2 = (Button) findViewById(R.id.signup_btn);
-        imageButton2.setOnClickListener(new View.OnClickListener() {
+        /*
+         * 회원가입 버튼
+         * 클릭 시 회원가입 페이지로 이동
+         */
+        signup_btn = findViewById(R.id.signup_btn);
+        signup_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), SignUp.class);
                 startActivity(intent);
             }
         });
+
+
+
+
     }
 }
