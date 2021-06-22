@@ -1,7 +1,7 @@
 # No.1n
 ## **노인분들을 위한 넘버 1 플랫폼**<br />
 <br />
-<img src="https://user-images.githubusercontent.com/54359832/122895866-76aa9780-d383-11eb-9c10-02505b1b72a8.png" width="500px" height="500px"></img>
+<center><img src="https://user-images.githubusercontent.com/54359832/122895866-76aa9780-d383-11eb-9c10-02505b1b72a8.png" width="350px" height="350px"></img></center>
 
 ## Description
 
