@@ -53,10 +53,10 @@ Andorid studio에서 Run
 
 ## Screenshots
 
-<img src="https://user-images.githubusercontent.com/54359832/122897752-4106ae00-d385-11eb-9164-cba1de5dff1a.png" width="240px" height="400px"></img>
-<img src="https://user-images.githubusercontent.com/54359832/122897955-701d1f80-d385-11eb-8a87-882653bdb852.png" width="240px" height="400px"></img>
-<img src="https://user-images.githubusercontent.com/54359832/122897982-790df100-d385-11eb-8a1a-073844d16807.png" width="240px" height="400px"></img>
-<img src="https://user-images.githubusercontent.com/54359832/122898076-904cde80-d385-11eb-9882-0fb250619fa2.png" width="240px" height="400px"></img>
-<img src="https://user-images.githubusercontent.com/54359832/122898158-9e9afa80-d385-11eb-95be-7b154cf74aa9.png" width="240px" height="400px"></img>
-<img src="https://user-images.githubusercontent.com/54359832/122898230-ad81ad00-d385-11eb-8e86-90dadabf54f8.png" width="240px" height="400px"></img>
-<img src="https://user-images.githubusercontent.com/54359832/122898266-b4102480-d385-11eb-8b5d-c9b0b977f6e5.png" width="240px" height="400px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122897752-4106ae00-d385-11eb-9164-cba1de5dff1a.png" width="240px" height="420px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122897955-701d1f80-d385-11eb-8a87-882653bdb852.png" width="240px" height="420px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122897982-790df100-d385-11eb-8a1a-073844d16807.png" width="240px" height="420px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122898076-904cde80-d385-11eb-9882-0fb250619fa2.png" width="240px" height="420px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122898158-9e9afa80-d385-11eb-95be-7b154cf74aa9.png" width="240px" height="420px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122898230-ad81ad00-d385-11eb-8e86-90dadabf54f8.png" width="240px" height="420px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122898266-b4102480-d385-11eb-8b5d-c9b0b977f6e5.png" width="240px" height="420px"></img>
