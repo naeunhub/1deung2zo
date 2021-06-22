@@ -1,11 +1,12 @@
 # No.1n
 노인분들을 위한 넘버 1 플랫폼<br />
-<img src="https://user-images.githubusercontent.com/54359832/122895866-76aa9780-d383-11eb-9c10-02505b1b72a8.png" width="200px" height="200px"></img>
+<br />
+<img src="https://user-images.githubusercontent.com/54359832/122895866-76aa9780-d383-11eb-9c10-02505b1b72a8.png" width="500px" height="500px"></img>
 
 ## Description
 
 코로나 19시대로 인한 노인분들의 복지관 방문 어려움에서부터 시작된 프로젝트로 <br />
-<br />
+
 1. 복지관 정보 통합
 2. 복지관 영상 컨텐츠 통합
 3. TTS(Text to Speech) 서비스<br />
@@ -47,15 +48,15 @@ Andorid studio에서 Run
 * [박예진]
 * [정부경]
 
-디자인팀
-* [김대인](https://github.com/eodls2966) - 개발에도 참여
+디자인팀(+개발)
+* [김대인](https://github.com/eodls2966)
 
 ## Screenshots
 
-<img src="https://user-images.githubusercontent.com/54359832/122897752-4106ae00-d385-11eb-9164-cba1de5dff1a.png" width="180px" height="320px"></img>
-<img src="https://user-images.githubusercontent.com/54359832/122897955-701d1f80-d385-11eb-8a87-882653bdb852.png" width="180px" height="320px"></img>
-<img src="https://user-images.githubusercontent.com/54359832/122897982-790df100-d385-11eb-8a1a-073844d16807.png" width="180px" height="320px"></img>
-<img src="https://user-images.githubusercontent.com/54359832/122898076-904cde80-d385-11eb-9882-0fb250619fa2.png" width="180px" height="320px"></img>
-<img src="https://user-images.githubusercontent.com/54359832/122898158-9e9afa80-d385-11eb-95be-7b154cf74aa9.png" width="180px" height="320px"></img>
-<img src="https://user-images.githubusercontent.com/54359832/122898230-ad81ad00-d385-11eb-8e86-90dadabf54f8.png" width="180px" height="320px"></img>
-<img src="https://user-images.githubusercontent.com/54359832/122898266-b4102480-d385-11eb-8b5d-c9b0b977f6e5.png" width="180px" height="320px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122897752-4106ae00-d385-11eb-9164-cba1de5dff1a.png" width="240px" height="400px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122897955-701d1f80-d385-11eb-8a87-882653bdb852.png" width="240px" height="400px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122897982-790df100-d385-11eb-8a1a-073844d16807.png" width="240px" height="400px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122898076-904cde80-d385-11eb-9882-0fb250619fa2.png" width="240px" height="400px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122898158-9e9afa80-d385-11eb-95be-7b154cf74aa9.png" width="240px" height="400px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122898230-ad81ad00-d385-11eb-8e86-90dadabf54f8.png" width="240px" height="400px"></img>
+<img src="https://user-images.githubusercontent.com/54359832/122898266-b4102480-d385-11eb-8b5d-c9b0b977f6e5.png" width="240px" height="400px"></img>
