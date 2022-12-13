@@ -12,7 +12,11 @@
         <activity android:name=".Search"></activity>
         <activity android:name=".SignUp" />
         <activity android:name=".LogIn" />
-        <activity android:name=".FirstPage">
+        <activity android:name=".FirstPage" />
+        <activity android:name=".ClassSchedule" />
+        <activity android:name=".MyInformation" />
+        <activity android:name=".SecondMain" />
+        <activity android:name=".alarm_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

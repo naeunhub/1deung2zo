@@ -17,4 +17,18 @@
     <style name="urgentButton" parent="Widget.AppCompat.Button.Colored">
         <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
     </style>
+
+    <style name="Text.dream1" parent="android:TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/dream1</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Text.dream2" parent="android:TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/dream2</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
 </resources>
